@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const authRoute = require('./route/auth');
 const app = express();
-
 require('dotenv/config');
 // connect to database
 mongoose.connect(process.env.DATABASE,{ useNewUrlParser: true, useUnifiedTopology: true},()=>
