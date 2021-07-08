@@ -4,10 +4,10 @@ Node js Authentication with JWT
 ## Requirment
 npm install  
 npm install express  
-npm insatall --save-dev nodemon  
+npm install --save-dev nodemon  
 npm install @hapi/joi   
-npm insatall bcryptjs  
-npm insatall jsonwebtoken
+npm install bcryptjs  
+npm install jsonwebtoken
 
 ## Reference
 - https://www.youtube.com/watch?v=2jqok-WgelI&list=PLDyQo7g0_nsUIbQhYNVlM0u7kb-6ou4MQ
