@@ -1,7 +1,7 @@
 # ApiAuthentication-WithJWT
 Node js Authentication with JWT
 
-## Requirment
+## Requirement
 npm install  
 npm install express  
 npm install --save-dev nodemon  
