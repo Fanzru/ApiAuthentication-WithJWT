@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const authRoute = require('./route/auth');
+const postRoute = require('./route/post');
 const app = express();
 require('dotenv/config');
 // connect to database
@@ -16,5 +17,6 @@ app.use(express.urlencoded({ extended: true }))
 
 //midleware route
 app.use('/api/user',authRoute);
-
+app.use('/api/post',postRoute);
+//app.use('/api/posts',postsRoute)
 app.listen(5000,()=>console.log('Server up and running!'))
